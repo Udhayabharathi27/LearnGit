@@ -1,0 +1,30 @@
+git init
+ls -a
+touch names.txt
+git status
+git add .
+git statusgit commit -m "File is added"
+git status
+vi names.txt
+cat names.txt
+git status
+git add .
+git status
+git statusgit commit -m "Modify the file "
+git log
+==================== Push the project to the git ================================
+ git remote add origin https://github.com/Udhayabharathi27/LearnGit.git
+ git remote -v
+ git push origin master
+ git remote -v
+ git log
+
+Main == main is the default branch in a Git repository
+Branch == A branch is a copy of your code where you can make changes without affecting main.
+Developers use branches to: Add new features , Fix bugs ,Test experiments
+Once changes are tested and ready, they’re merged back into main.
+
+==============================================================
+ git clone https://github.com/Udhayabharathi27/ComClassroom-DSA-Bootcamp.git
+
+ git remote add upstream https://github.com/Aditya-Naik13/ComClassroom-DSA-Bootcamp.git
